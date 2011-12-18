@@ -1,5 +1,5 @@
 name: SelfKick
-main: com.tmc.selfKick
+main: com.tmc.selfkick.SelfKick
 version: 0.01
 
 commands:
