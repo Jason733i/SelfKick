@@ -20,7 +20,8 @@ public class SelfKickExecutor implements CommandExecutor {
         }
 
         if (command.getName().equalsIgnoreCase("quit")) {
-            player.kickPlayer("You have quit the server!");
+            player.chat("is leaving the server...");
+            player.kickPlayer("You have left the server!");
             return true;
         }
         return false;

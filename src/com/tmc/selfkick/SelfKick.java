@@ -21,6 +21,5 @@ public class SelfKick extends JavaPlugin{
         minecraftLog.info("Self-Kick enabled");
         pluginManager = this.getServer().getPluginManager();
         getCommand("quit").setExecutor(selfKickExecutor);
-        pluginManager.enablePlugin(this);
     }
 }
